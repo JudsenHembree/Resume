@@ -33,7 +33,7 @@ func main() {
 	}
 	fmt.Printf("%+v\n", data)
 
-	out, err := os.Create("/home/judsen/Code/Resume/web/resume.css")
+	out, err := os.Create("/home/judsen/Code/Resume/web/resume.html")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(-1)
